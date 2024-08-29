@@ -12,20 +12,23 @@ main:
     weight: 20
   - name: People
     url: people
-    weight: 30
-    hasChildren: true
+    weight: 30   
+  - name: Faculty
+    pageRef: people/faculty
+    parent: People  
+    weight: 1
+  - name: Current Lab Members
+    pageRef: people/current
     parent: People
-    name: Faculty
-    url: faculty/
+    weight: 2
+  - name: Alumni
+    pageRef: people/alumni
     parent: People
-    name: Current Lab Members
-    url: currentmembers
+    weight: 3
+  - name: Lab Photos
+    pageRef: people/labphoto
     parent: People
-    name: Alumni
-    url: alumni
-    parent: People
-    name: Lab Photos
-    url: labphotos
+    weight: 4
   - name: Events
     url: event
     weight: 40
