@@ -5,13 +5,13 @@
 
 main:
   - name: News
-    url: tour
+    url: news
     weight: 10
   - name: Research
     url: post
     weight: 20
   - name: Software
-    url: event
+    url: software
     weight: 30
   - name: Publications
     url: publication

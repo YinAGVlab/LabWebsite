@@ -1,6 +1,6 @@
 ---
-title: Tour
-date: 2022-10-24
+title: News
+date: 2024-08-29
 
 type: landing
 
