@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Jianhua Yin
 
 # Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+first_name: Jianhua
+last_name: Yin
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Professor of Mechanical Engineering
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: Wuhan University of Technology
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -27,15 +27,15 @@ interests:
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Mechanical Engineering
+      institution: Purdue University
+      year: 2022
+    - course: MSc in Geotechnical Engineering
+      institution: Nanjing University
+      year: 2017
+    - course: BEng in Geotechnical Engineering
+      institution: Chang'an University
+      year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
