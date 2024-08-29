@@ -4,15 +4,29 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: News
     url: tour
     weight: 10
-  - name: News
+  - name: Research
     url: post
     weight: 20
+  - name: Software
+    url: event
+    weight: 30
+  - name: Publications
+    url: publication
+    weight: 40
+  - name: Refereed Journal Papers
+    pageRef: publication/journal
+    parent: Publications  
+    weight: 1
+  - name: Refereed Conference Papers
+    pageRef: publication/conference
+    parent: Publications
+    weight: 2
   - name: People
     url: people
-    weight: 30   
+    weight: 50   
   - name: Faculty
     pageRef: people/faculty
     parent: People  
@@ -29,12 +43,6 @@ main:
     pageRef: people/labphoto
     parent: People
     weight: 4
-  - name: Events
-    url: event
-    weight: 40
-  - name: Publications
-    url: publication
-    weight: 50
   - name: Contact
     url: contact
     weight: 60
