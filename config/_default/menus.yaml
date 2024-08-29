@@ -4,7 +4,7 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Tour
+  - name: Home
     url: tour
     weight: 10
   - name: News
@@ -13,6 +13,19 @@ main:
   - name: People
     url: people
     weight: 30
+    hasChildren: true
+    parent: People
+    name: Faculty
+    url: faculty/
+    parent: People
+    name: Current Lab Members
+    url: currentmembers
+    parent: People
+    name: Alumni
+    url: alumni
+    parent: People
+    name: Lab Photos
+    url: labphotos
   - name: Events
     url: event
     weight: 40
