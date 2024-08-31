@@ -9,7 +9,7 @@ next :
     text: "Framework"
 ---
 
-Here, we list all publications relating to LightJason ([BibTeX format](references.bib)); for some publications we provide comments containing additional information about the publication.
+Here, we list all publications relating to LightJason ([BibTeX format](journal.bib)); for some publications we provide comments containing additional information about the publication.
 
 <!--more-->
 
